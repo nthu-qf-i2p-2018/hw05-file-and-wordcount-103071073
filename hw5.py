@@ -9,7 +9,7 @@ import pickle
 def main(filename):
     # read file into lines
     #name = str(input("Please enter the path of file you want to open: "))
-    txtfile = open("")
+    txtfile = open(filename)
     lines = txtfile.readlines()
 
     # declare a word list
